@@ -1,0 +1,44 @@
+{
+  "name": "qitx",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "author": "'Pranav <'pranav0to9@gmail.com'>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "babel src -d lib"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "copy-webpack-plugin": "5.1.1",
+    "core-js": "^3.6.5",
+    "firebase": "^8.3.1",
+    "quasar": "^1.15.7",
+    "sitemap-webpack-plugin": "^1.1.0",
+    "vue-meta": "^2.4.0",
+    "vue-scrollto": "^2.20.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0",
+    "workbox-webpack-plugin": "^5.0.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
